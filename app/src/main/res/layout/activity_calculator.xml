@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:background="#000000"
         android:orientation="vertical">
 
         <LinearLayout
@@ -53,87 +53,85 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginBottom="3dp"
+                android:layout_marginBottom="-5dp"
                 android:layout_weight="0.3"
                 android:background="#000000">
 
                 <View
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="3.07"
                     android:background="#262626">
 
                 </View>
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="-4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="DELETE"
                     android:textColor="#FFFFFF"
-                    android:textSize="16sp"
-                    app:backgroundTint="#262626 " />
-
+                    android:textSize="14sp"
+                    app:backgroundTint="#262626"
+                    app:cornerRadius="0dp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="3dp"
+                android:layout_marginBottom="-5dp"
                 android:layout_weight="1"
                 android:background="#000000">
 
-
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="7"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252 "
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="8"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252 " />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="9"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252 " />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="÷"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#262626 " />
+                    app:backgroundTint="#262626"
+                    app:cornerRadius="0dp" />
 
 
             </LinearLayout>
@@ -141,57 +139,57 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="3dp"
+                android:layout_marginBottom="-5dp"
                 android:layout_weight="1"
                 android:background="#000000">
 
+                <Button
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
+
                     android:text="4"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252 "
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="5"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="6"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="×"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#262626 " />
+                    app:backgroundTint="#262626"
+                    app:cornerRadius="0dp" />
 
 
             </LinearLayout>
@@ -199,57 +197,56 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="3dp"
+                android:layout_marginBottom="-5dp"
                 android:layout_weight="1"
                 android:background="#000000">
 
+                <Button
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="1"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252 "
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="2"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="3"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="-"
                     android:textColor="#FFFFFF"
                     android:textSize="45sp"
-                    app:backgroundTint="#262626 " />
+                    app:backgroundTint="#262626"
+                    app:cornerRadius="0dp" />
 
 
             </LinearLayout>
@@ -257,58 +254,56 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
                 android:layout_weight="1"
                 android:background="#000000">
 
+                <Button
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="."
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252 "
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="0"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#525252" />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="="
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#262626 " />
+                    app:backgroundTint="#525252"
+                    app:cornerRadius="0dp" />
 
-                <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                <Button
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/button_background"
                     android:text="+"
                     android:textColor="#FFFFFF"
                     android:textSize="37sp"
-                    app:backgroundTint="#262626 " />
-
+                    app:backgroundTint="#262626"
+                    app:cornerRadius="0dp" />
 
             </LinearLayout>
 
