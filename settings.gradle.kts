@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CSE_489"
+rootProject.name = "CSE489_Spring2025_2021-3-60-141"
 include(":app")
  
