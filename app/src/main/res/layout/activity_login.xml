@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#262121"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+
+            >
+
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="16dp">
+
+            <TableRow>
+                <TextView android:text="Email"
+                    >
+
+                </TextView>
+                <EditText android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Password "
+                    >
+
+                </TextView>
+                <EditText android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                </EditText>
+            </TableRow>
+
+
+
+
+
+            <CheckBox
+                android:text="Remember User">
+
+            </CheckBox>
+
+            <CheckBox
+                android:text="Remember Login">
+
+            </CheckBox>
+
+            <Button android:text="Don't have an Account"
+                android:backgroundTint="#545252"
+                android:textSize="15dp">
+
+            </Button>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#545252"
+                android:layout_margin="10dp"
+                app:cornerRadius="0dp"
+                android:text="Exit"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:backgroundTint="#545252"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cornerRadius="0dp"
+                android:text="Log in"
+                android:textSize="14dp"
+                android:textStyle="bold">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
